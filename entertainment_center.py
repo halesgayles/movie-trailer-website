@@ -24,7 +24,7 @@ logan = media.Movie("Logan",
 finding_nemo = media.Movie("Finding Nemo",
                            "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.",
                            "https://images-na.ssl-images-amazon.com/images/M/MV5BZjMxYzBiNjUtZDliNC00MDAyLTg3N2QtOWNjNmNhZGQzNDg5XkEyXkFqcGdeQXVyNjE2MjQwNjc@._V1_UY268_CR1,0,182,268_AL_.jpg",
-                           "https://www.youtube.com/embed/3JnKU9Stmyw")
+                           "https://www.youtube.com/embed/O1BoLmwd1G4")
 
 movies_list = [wonder_woman, avatar, last_jedi, logan, finding_nemo]
 fresh_tomatoes.open_movies_page(movies_list)
