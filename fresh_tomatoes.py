@@ -14,7 +14,7 @@ main_page_head = '''
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
-    <link rel="javascript" href="script.js">
+    <script src="script.js"></script>
     
 </head>
 '''
@@ -64,7 +64,7 @@ movie_cards = '''
         <div id="myModal{counter}" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-lg">
             <div class="modal-content">
-              <iframe width="560" height="315" src="{trailer_youtube_id}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              <iframe id="myFrame{counter}" width="560" height="315" src="{trailer_youtube_id}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen allowscriptaccess="always"></iframe>
             </div>
           </div>
         </div>
